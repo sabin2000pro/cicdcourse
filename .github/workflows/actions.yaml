@@ -4,6 +4,7 @@ on: [push]
 jobs:
   print-action:
     runs-on: ubuntu-latest
+
     steps:
       - name: Simple JS Action
         id: greet
